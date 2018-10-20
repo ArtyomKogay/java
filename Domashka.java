@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Dz {
+public class Domashka {
     // Задание 1 - Создаем пустой проект.
     public static void main( String[] args )
     {
@@ -21,7 +21,7 @@ public class Dz {
 
         int chislo1 = (int) (Math.random()*20);
         int chislo2 = (int) (Math.random()*20);
-        System.out.println(proverka(chislo1,chislo2));
+        System.out.println(prov(chislo1,chislo2));
         //Задание 5
         int numbers = ((int)(Math.random() * 21)-10);
         System.out.println(plusorminus(numbers));
@@ -46,7 +46,7 @@ public class Dz {
         return(a*(b+(c/d)));
     }
     //Задание 4 - Написать метод принимающий на вход 2 числа, проверить входит ли их сумма в диапазон чисел от 10 до 20
-    public static boolean proverka(int chislo1,int chislo2) {
+    public static boolean prov(int chislo1,int chislo2) {
         int sum = chislo1+chislo2;
         System.out.println(sum);
         return(sum>=10 & sum <=20);
